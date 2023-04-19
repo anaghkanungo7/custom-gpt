@@ -138,7 +138,7 @@ const handleSubmit = async (e) => {
 
     console.log(data.get('prompt'));
 
-    const response = await fetch('http://localhost:443', {
+    const response = await fetch('https://mycustomgpt.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
